@@ -31,8 +31,7 @@ python pacman.py -l mediumCorners -p SearchAgent -a fn=dfs,prob=CornersProblem
 *Implement a heuristic for the CornersProblem in cornersHeuristic*
 ```
 python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
-```
-<br />
+``` 
 **Eating All The Dots** <br />
 *AStarFoodSearchAgent*
 ```
