@@ -1,6 +1,7 @@
 Project Link：http://inst.eecs.berkeley.edu/~cs188/pacman/home.html
 
-**Finding a Fixed Food Dot using Search Algorithms** <br />
+**Finding a Fixed Food Dot using Search Algorithms** 
+
 *Implement the depth-first search(DFS) algorithm*
 ```
 python pacman.py -l tinyMaze -p SearchAgent
