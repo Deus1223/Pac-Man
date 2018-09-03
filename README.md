@@ -12,10 +12,9 @@ python pacman.py -l bigMaze -z .5 -p SearchAgent
 python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
 ```
-*A\*search*
+*A\* search*
 ```
 python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic 
-
 ```
 <br />
 **Finding All the Corners** <br />
