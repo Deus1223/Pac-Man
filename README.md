@@ -1,6 +1,6 @@
 Project Link：http://inst.eecs.berkeley.edu/~cs188/pacman/home.html
 
-**Finding a Fixed Food Dot using Search Algorithms** 
+## **Finding a Fixed Food Dot using Search Algorithms** 
 
 *Implement the depth-first search(DFS) algorithm*
 ```
@@ -17,7 +17,7 @@ python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
 ```
 python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic 
 ``` 
-**Finding All the Corners** <br />
+## **Finding All the Corners** <br />
 *BFS*
 ```
 python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
@@ -32,7 +32,7 @@ python pacman.py -l mediumCorners -p SearchAgent -a fn=dfs,prob=CornersProblem
 ```
 python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
 ``` 
-**Eating All The Dots** <br />
+## **Eating All The Dots** <br />
 *AStarFoodSearchAgent*
 ```
 python pacman.py -l trickySearch -p AStarFoodSearchAgent
