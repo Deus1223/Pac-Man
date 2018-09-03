@@ -32,8 +32,3 @@ python pacman.py -l mediumCorners -p SearchAgent -a fn=dfs,prob=CornersProblem
 ```
 python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
 ``` 
-## **Eating All The Dots** <br />
-*AStarFoodSearchAgent*
-```
-python pacman.py -l trickySearch -p AStarFoodSearchAgent
-```
